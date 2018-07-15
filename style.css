@@ -1,4 +1,6 @@
 body {
+	overflow-y: hidden;
+	overflow-x: hidden;
   font-family: "DIST Inking Regular", serif;
   font-weight: 400;
   font-size: 14px;
