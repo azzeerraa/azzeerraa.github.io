@@ -1,0 +1,30 @@
+button{
+   position:fixed;
+   width: 105%;
+   height: 101%;
+   top: 0px;
+   left: -10px;
+      outline: none;
+      background-color:#5fba7d00;
+      border-color: #5fba7d00;
+}
+input {
+   outline: none;
+   text-align: center;
+   font-size: 50px;
+}
+select:focus {
+   outline: none;
+}
+input:focus {
+   outline: none;
+   text-align: center;
+   font-size: 50px;
+}
+.d1{position:relative;
+   background-color:#5fba7d;
+   border-color: #5fba7d00;
+   left:0px;
+   top:0px;
+   height:100px;
+   width:100%;}
