@@ -1,0 +1,51 @@
+body{
+  background-color: #d4d3b4;
+  margin: auto;
+  z-index: 0;
+}
+.menu{
+  position: fixed;
+  width: 100%;
+  height: 10%;
+  left: 0px;
+  top: 0px;
+  z-index: 5;
+  background-color: #333333;
+}
+.info{
+  position: absolute;
+  min-width: 100%;
+  min-height: 100%;
+  left: 0px;
+  top: 0px;
+  z-index: 1;
+  background-color: #ffffff00;
+  max-width: 100%;
+  max-height: 100%;
+}
+.m1{
+ margin-top: 18%;
+  position: relative;
+  min-width: 100%;
+  min-height: 30%;
+  left: 0px;
+  top: 0px;
+  z-index: 1;
+  background-color: #c1342d;
+  max-width: 100%;
+  max-height: 100%;
+  font-size: 200px;
+}
+.title1{
+  width: 100%;
+  min-height:1%;
+  max-height: 30%;
+  font-size: 50%;
+  word-wrap: break-word;
+}
+hr{
+  position: relative;
+  width: 100%;
+  height:1%;
+  margin-top: 1%;
+}
