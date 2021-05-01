@@ -1,6 +1,6 @@
-<?php        //проверка на обновления записей в chat 
+<?php        //проверка на обновления записей в chat
 
-$conn = mysqli_connect("localhost", "mysql", "mysql", "darknet");
+$conn = mysqli_connect("37.59.55.185", "zXZd1mnCT9", "Sp2hMtye0d", "zXZd1mnCT9");
 $result = mysqli_query($conn, 'SELECT * FROM chat order by id desc limit 1 ');
 $data = array();
 
