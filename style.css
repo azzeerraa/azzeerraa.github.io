@@ -1,175 +1,148 @@
-a{
-  text-decoration: none;
+input[type="button"]{
+  position: fixed;
+  bottom: 5px;
+  right: 15px;
+  height: 6%;
+  width: 200px;
+  background-color: #173239;
+  color: #fff6dd;
+  border-radius: 100px;
+  font-size: 20px;
+  cursor: pointer;
+}
+input[type="text"]{
+  position: fixed;
+  bottom: 0.8%;
+  left: 5%;
+  height: 5%;
+  width: 80%;
+  background-color: #173239;
+  color: #fff6dd;
+  text-align: center;
+  font-size: 18px;
+  letter-spacing: 1px;
+  border-radius: 30px;
+
 }
 input{
-  outline: none;
   border: 0px;
+  outline: none;
 }
-#menu{
-    position: fixed;
-    width: 200px;
+input[type="button"]:active{
+  background-color: black;
+  color: white;
+}
+@font-face {
+ font-family: Flow; /* Имя шрифта */
+ src: url(19759.otf); /* Путь к файлу со шрифтом */
+}
+@font-face {
+font-family: Flowlow; /* Имя шрифта */
+src: url(19760.otf); /* Путь к файлу со шрифтом */
+}
+input[type="text"]{
+  font-family: Flowlow;
+}
+input[type="button"]{
+  font-family: Flow;
+}
+body{background-color: #173239;}
+  #row{
+    position: absolute;
+    left: 0px;
+    width: 100%;
+    height: 20px;
+    color: black;
+    margin-top: 10px;
+  }
+  #row1{
+    position: absolute;
+    right: 0px;
+    width: 100%;
+    height: 20px;
+    color: black;
+    margin-top: 10px;
+  }
+  #dmt{
+    border: 5px solid #eceeeb;
+        background-color: #eceeeb;
+        border-radius: 0px 30px 30px 0px;
+        color: #173239;
+        font-family: Flow;padding-right: 7px;
+  }
+  #dmt2{
+    border: 5px solid #f4513e;
+        background-color: #f4513e;
+        border-radius: 0px 30px 30px 0px;
+        color: #173239;
+        font-family: Flow;padding-right: 7px;
+  }
+  br{
+    margin-top:15px;
+padding-top: 0px;
+margin-bottom: 0px;
+  }
+  #los{
+
+    position: absolute;
+    right: 11px;
     height: 100%;
     top: 0px;
-    left: 0px;
-    background-color: #ff0000;
   }
-#menu-box-add-menu{
+  #los1{
     position: absolute;
-    top: 100px;
-    left: 0px;
-    width: 250px;
-    height: 50px;
-    background-color: #3b2222;
+    left: 11px;
+    height: 100%;
+    top: 0px;
   }
-#add-menu-input-text{
-        position: absolute;
-        top: 10px;
-        left: 5px;
-        width: 180px;
-        height: 30px;
-        background-color: #ff0000;
-        text-align: center;
-        color: white;
-  }
-#add-menu-input-button{
-          position: absolute;
-          top: 10px;
-          left: 205px;
-          width: 30px;
-          height: 30px;
-          background-color: #ff0000;
-          border-radius: 100px;
-          transition-duration: 0.5s;
-        }
-#add-menu-input-button:hover{
-          background-color: orange;
-          transition-duration: 0.5s;
-        }
-#menu-box-info-menu{
-        position: absolute;
-        top: 180px;
-        left: 10px;
-        width: 170px;
-        height: 70%;
-        flex-wrap: inherit;
-        background-color: orange;
-        color: #fff;
-        justify-content: center;
-  }
-#menu-box-info-menu-hud{
-    margin-top: 5px;
-    margin-left: -10px;
-    display: inline-block;
-    width: 200px;
-    height: 30px;
-    background-color: #3b2222;
-  }
-#menu-box-info-menu-text{
-    text-align: center;
-    display: block;
-    display: block;
-    margin: 6px;
+  a{font-size: 15px; }
+  #fg{
+    position: absolute;
+    left: 48%;
     color: white;
   }
-#menu-box-info-menu-button{
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    top: 0px;
-    left: 0px;
-    background-color: #ffffff00;
+  #md{
+border: 5px solid #eceeeb;
+    background-color: #eceeeb;
+    border-radius: 30px 0px 0px 30px;
+    color: #1b1b1b;
+    font-family: Flow;padding-left: 7px;
   }
-#box-logo{
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    width: 200px;
-    height: 100px;
-    background-color: #3b2222;
-  }
-#box-logo-text{
-    text-align: center;
-    display: block;
-    margin: 40px;
-    color: #ff0000;
-    font-family: test;
+  #md2{
+border: 5px solid #f4513e;
+    background-color: #f4513e;
+    border-radius: 30px 0px 0px 30px;
+    color: #fff6dd;
+    font-family: Flow;padding-left: 7px;
   }
 
-a, input{
-   font-family: test2;
-  }
-@font-face {
- font-family: test;
- src: url('https://azzeerraa.github.io/16271.ttf');
+
+  a{-moz-user-select: none;
+-khtml-user-select: none;
+user-select: none; }
+#ds{
+position: fixed;
+display: block;
+width: 1920px;
+height: 890px;
+top: 0%;
+left: 0%;
+overflow-y: auto;
+overflow-x: hidden;
+z-index: 10;
 }
-@font-face {
- font-family: test2;
- src: url('https://azzeerraa.github.io/Hero.otf');
-}
-#menu-box-file{
- position: absolute;
- display: block;
- top: 0px;
- left: 20%;
- width: 80%;
- height:100%;
- background-color: #3b2222;
-}
-#box-backwards{
- position: absolute;
- top: 5px;
- left: -25px;
- width: 140px;
- height: 40px;
- background-color: #ff0000;
- border-radius: 15px;
-}
-#box-backwards-text{
-   text-align: center;
-   display: block;
-   margin: 11px;
-   color: white;
-}
-#menu-box-file-box{
- display: flex;
- flex-wrap: wrap;
- position: absolute;
- overflow-y: scroll;
- overflow-x: hidden;
- top: 70px;
- left: 0%;
- height: 80%;
- width: 100%;
- background-color: orange;
- color: #fff;
- font: 100 24px/100px sans-serif;
- justify-content: stretch;
-}
-#file-box {
-   height: 105px;
-   display: block;
-   width: 150px;
-   margin: 30px;
-   background-color: #ff0000;
- }
-#file-box-box-text{
- margin-top: 15px;
- margin-left: -7px;
- width: 165px;
- height: 35px;
- background-color: #3b2222;
-}
-#file-box-img{
- margin-top: 10px;
- margin-left: 0px;
- display: block;
- width: 100%;
- height: 85px;
- background-color: #3b2222;
-}
-#file-box-img img{
- margin-top: 0px;
- margin-left: 0px;
- width: 100%;
- height: 100%;
-}
+    #opra{
+      position: fixed;
+      bottom: 0px;
+      left: 0px;
+      height: 7%;
+      width: 100%;
+      background-color: #324d54;
+      z-index: 11;
+    }
+    img{
+      position: absolute;
+      left: 1.7%;
+      top: 22%;
+      cursor: pointer;
+    }
